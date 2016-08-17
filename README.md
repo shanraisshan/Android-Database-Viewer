@@ -4,7 +4,7 @@ No root of android device is required.
 
 Description
 ----
-If you don't want to use ***adb, 3rd party library or github dependency etc***, and just want the database file in your ***SD Card***, Android-Database-Viewer is the solution.
+If you don't want to use ***adb, 3rd party library or gradle dependency etc***, and just want the database file in your ***SD Card***, Android-Database-Viewer is the solution.
 
 Android-Database-Viewer is the utility class that pulls your application database into SD Card.
 
