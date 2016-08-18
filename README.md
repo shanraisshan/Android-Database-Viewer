@@ -10,6 +10,25 @@ Android-Database-Viewer is the utility class that pulls your application databas
 
 The default save path is set to **sdcard/shanraisshan/your_database_file**
 
+*Note*
+----
+> Don't forget to change the name of the database according to your application database name.
+> 
+> You need to update the variable **DATABASE_NAME** in [DatabaseUtil.java](https://github.com/shanraisshan/Android-Database-Viewer/blob/master/DatabaseUtil.java) accordingly.
+````
+final static String DATABASE_NAME = "MyDatabase.sqlite";
+````
+
+> **DATABASE_NAME** can be any name like
+> 
+> 1. MyDatabase.sqlite
+> 
+> 2. MyDatabase.db
+> 
+> 3. msgstore.db *(WhatsApp database name)*
+>
+> 4. MyDatabase *(without extension)*
+
 
 Changes in Android application
 ----
