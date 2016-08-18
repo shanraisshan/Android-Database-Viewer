@@ -15,7 +15,8 @@ The default save path is set to **sdcard/shanraisshan/your_database_file**
 > Don't forget to change the name of the database according to your application database name.
 > 
 > You need to update the variable **DATABASE_NAME** in [DatabaseUtil.java](https://github.com/shanraisshan/Android-Database-Viewer/blob/master/DatabaseUtil.java) accordingly.
-````
+
+````java
 final static String DATABASE_NAME = "MyDatabase.sqlite";
 ````
 
@@ -34,12 +35,12 @@ Changes in Android application
 ----
 
 Declare permission in your AndroidManifest.xml
-````
+````java
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ````
 
 Import [DatabaseUtil.java](https://github.com/shanraisshan/Android-Database-Viewer/blob/master/DatabaseUtil.java) class in your project
-````
+````java
 package com.util;
 
 import android.content.Context;
@@ -110,7 +111,7 @@ public class DatabaseUtil {
 
 ----
 Now simply call ***copyDatabaseToExtStg()*** method from any activity in your app
-````
+````java
 //calling from MainActivity
 DatabaseUtil.copyDatabaseToExtStg(MainActivity.this);
 ````
