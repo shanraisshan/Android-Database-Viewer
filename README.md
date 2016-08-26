@@ -12,6 +12,8 @@ The default save path is set to **sdcard/shanraisshan/your_database_file**
 
 *Note*
 ----
+**Database Name:**
+
 > Don't forget to change the name of the database according to your application database name.
 > 
 > You need to update the variable **DATABASE_NAME** in [DatabaseUtil.java](https://github.com/shanraisshan/Android-Database-Viewer/blob/master/DatabaseUtil.java) accordingly.
@@ -30,6 +32,10 @@ final static String DATABASE_NAME = "MyDatabase.sqlite";
 >
 > 4. MyDatabase *(without extension)*
 
+----
+**Devices running Marshmallow or above:**
+
+> For devices running Marshmallow or above, make sure to check whether the *Storage* permission is granted in the application's setting or not.
 
 Changes in Android application
 ----
